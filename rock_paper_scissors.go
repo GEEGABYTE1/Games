@@ -13,7 +13,14 @@ func main() {
 	paper := 2
 	scissors := 3
 
-	computer_input := rand.Intn(1, 3)
+	fmt.Printf("Type %d for rock ", rock)
+	fmt.Println(" ")
+	fmt.Printf("Type %d for paper ", paper)
+	fmt.Println(" ")
+	fmt.Printf("Type %d for scissors ", scissors)
+	fmt.Println(" ")
+
+	computer_input := rand.Intn(3)
 
 	var user_input int
 	fmt.Scan(&user_input)
