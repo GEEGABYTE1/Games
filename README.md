@@ -1,15 +1,19 @@
-# Go Games 
+# Go Games 💨
 
 A simple Go project for the amusement of the users. Play the most popular games on your terminal! 
 
 
-# Rock Paper Scissors 
+# Rock Paper Scissors ✂️
+
+Users can play rock-paper-scissors right from their terminal. The classic game is now re-made in Go! 
+
+## Commands/Contrals 🕹
+ - `1`: Rock 
+ - `2`: Paper 
+ - `3`: Scissors
 
 
-# Tic-Tac-Toe 
-
-
-# Number Guesser
+# Number Guesser 🤔
 
 A simple Go guessing game to test your luck! 
 
