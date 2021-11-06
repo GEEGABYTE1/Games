@@ -32,5 +32,11 @@ func main() {
 	} else if user_input == 2 && computer_input == 1 {
 		fmt.Println("You have chosen paper and the computer chose rock")
 		fmt.Println("Congratulations, you have won")
+	} else if user_input == 2 && computer_input == 3 {
+		fmt.Println("You have chosen paper and the computer chose scissors")
+		fmt.Println("Sadly, you have lost")
+	} else if user_input == 3 && computer_input == 2 {
+		fmt.Println("You have chosen scissors and the computer chose paper")
+		fmt.Println("Congratulations, you have won")
 	}
 }
